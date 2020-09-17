@@ -2,7 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-table, th, tr {
+table {
   border: 2px solid black;
   border-collapse: collapse;
+}
+
+th, td, tr {
+  border: 2px solid black;
+}
+
+th {
+  font-family: Arial;
+  font-weight: bolder;
+  color: red;
 }
